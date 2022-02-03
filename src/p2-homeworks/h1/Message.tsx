@@ -2,10 +2,10 @@ import React from 'react'
 import s from './Message.module.css'
 
 type MessagePropsType = {
-    avatar: any;
-    name: string,
-    massage: string,
-    time: string,
+    avatar: string
+    name: string
+    massage: string
+    time: string
 }
 
 function Message(props: MessagePropsType) {
