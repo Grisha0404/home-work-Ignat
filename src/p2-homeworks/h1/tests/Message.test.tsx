@@ -20,7 +20,7 @@ test('find text "test message"', () => {
         <Message
             avatar=""
             name=""
-            message="test message"
+            massage="test message"
             time=""
         />
     ))
@@ -32,7 +32,7 @@ test('find text "test message time"', () => {
         <Message
             avatar=""
             name=""
-            message=""
+            massage=""
             time="test message time"
         />
     ))
