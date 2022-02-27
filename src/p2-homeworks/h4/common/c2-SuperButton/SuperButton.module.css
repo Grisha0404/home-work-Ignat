@@ -1,7 +1,9 @@
 .default {
-
+margin-top: 10px;
 }
-
+.default:hover{
+    color: blue;
+}
 .red {
     background: red;
 }
