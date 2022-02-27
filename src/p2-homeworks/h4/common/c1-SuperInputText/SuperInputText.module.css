@@ -3,8 +3,9 @@
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    margin-top: 20px;
+    border: 2px solid lightslategray;
+    background: lightgoldenrodyellow;
 }
 
 .error {
