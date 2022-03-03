@@ -1,6 +1,6 @@
 {
   "name": "simple-react-homeworks",
-  "homepage": "https://Grisha0404.github.io/home-work-Ignat",
+  "homepage": "https://grisha0404.github.io/home-work-Ignat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "@types/react-native": "^0.67.1",
     "@types/react-router-dom": "^5.3.3",
     "@types/uuid": "^8.3.4",
+    "deploy-react": "^2.2.11",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^6.2.2",
