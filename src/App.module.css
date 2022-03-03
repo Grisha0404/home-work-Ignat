@@ -1,3 +1,23 @@
 .App {
 
 }
+
+.poster {
+    position:center;
+    margin: 10px;
+    background:darkgreen;
+    height:20px;
+    width:20px;
+}
+.block {
+    display:none;
+    background-color: white;
+    height:25px;
+    -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);
+}
+.poster:hover .block{
+    display:block;
+    position:absolute;
+}
