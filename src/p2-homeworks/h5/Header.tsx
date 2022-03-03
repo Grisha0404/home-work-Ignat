@@ -1,10 +1,13 @@
 import React from 'react'
+import {AddLink} from "./pages/AddLink";
+import s from '../../App.module.css'
 
 function Header() {
     return (
-        <div>
-            Hello
-
+        <div className={s.poster}>
+            <div className={s.block}>
+                <AddLink/>
+            </div>
         </div>
     )
 }
