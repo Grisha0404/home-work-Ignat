@@ -4,9 +4,9 @@ import s from './hw5.module.css'
 function Error404() {
     return (
         <div className={s.error}>
-            <div>404</div>
-            <div>Page not found!</div>
-            <div>—ฅ/ᐠ.̫ .ᐟ\ฅ—</div>
+            <div style={{fontSize: 50}}><b>404</b></div>
+            <div style={{color: "red"}}>Page not found!</div>
+            <div><b>—ฅ/ᐠ.̫ .ᐟ\ฅ—</b></div>
         </div>
     )
 }
