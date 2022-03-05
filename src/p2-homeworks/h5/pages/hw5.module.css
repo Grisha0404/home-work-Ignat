@@ -1,12 +1,15 @@
-.link a{
+.link a {
     color: green;
     padding: 5px;
     text-decoration: none;
     margin-left: 5px;
 }
-.link a:hover{
+
+.link a:hover {
     color: chartreuse;
 }
-.error{
 
+.error {
+    text-align: center;
+    padding: 50px;
 }
