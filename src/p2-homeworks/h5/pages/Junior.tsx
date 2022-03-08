@@ -7,7 +7,7 @@ import Error404 from "../../h5/pages/Error404";
 export const Junior = () => {
     return (
         <div>
-            <Error404/>
+            <b>Sorry, this level is not available yet!:(</b>
             {/*<HW7/>
             <HW8/>
             <HW9/>*/}
