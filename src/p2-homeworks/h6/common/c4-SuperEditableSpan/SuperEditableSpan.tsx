@@ -1,6 +1,8 @@
 import React, {DetailedHTMLProps, InputHTMLAttributes, HTMLAttributes, useState} from 'react'
 import SuperInputText from '../../../h4/common/c1-SuperInputText/SuperInputText'
 
+
+
 // тип пропсов обычного инпута
 type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
 // тип пропсов обычного спана
@@ -30,11 +32,10 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
     const [editMode, setEditMode] = useState<boolean>(false)
     const {children, onDoubleClick, className, ...restSpanProps} = spanProps || {}
 
-    const onEnterCallback = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    const onEnterCallback = () => {
         // setEditMode() // выключить editMode при нажатии Enter
-        if(e.key === 'Enter')
-         setEditMode(false)
-        onEnter && onEnter()
+        setEditMode(false)
+            onEnter && onEnter()
     }
     const onBlurCallback = (e: React.FocusEvent<HTMLInputElement>) => {
         // setEditMode() // выключить editMode при нажатии за пределами инпута
@@ -47,7 +48,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
         onDoubleClick && onDoubleClick(e)
     }
 
-    const spanClassName = `${'сделать красивый стиль для спана'} ${className}`
+    const spanClassName = `${'color:red'} ${className}`
 
     return (
         <>
@@ -56,7 +57,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                     <SuperInputText
                         autoFocus // пропсу с булевым значением не обязательно указывать true
                         onBlur={onBlurCallback}
-                        onKeyPress={onEnterCallback}
+                        onEnter={onEnterCallback}
 
                         {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
                     />
