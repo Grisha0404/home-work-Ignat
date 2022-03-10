@@ -22,9 +22,10 @@ function HW6() {
             {/*should work (должно работать)*/}
             <div>
                 <SuperEditableSpan
+                    /*onEnter={save}*/
                     value={value}
                     onChangeText={setValue}
-                    spanProps={{children: value ? undefined : 'enter text...'}}
+                    spanProps={{children: value ? undefined : '✎ enter text...'}}
                 />
             </div>
             <SuperButton onClick={save}>save</SuperButton>
