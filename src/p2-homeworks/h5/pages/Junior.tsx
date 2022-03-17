@@ -1,9 +1,8 @@
 import React from 'react'
 
 function Junior() {
-    return (
-        <b>Sorry, this level is not available yet!:(</b>
-    )
+    return <b>Sorry, this level is not available yet!:(</b>
+
 }
 
 export default Junior

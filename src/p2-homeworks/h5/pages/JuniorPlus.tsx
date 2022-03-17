@@ -1,11 +1,10 @@
 import React from 'react'
 
 export function JuniorPlus() {
-    return (
-        <div>
-            This level is not available to you!
-        </div>
-    )
+    return <div>
+        This level is not available to you!
+    </div>
+
 }
 
 

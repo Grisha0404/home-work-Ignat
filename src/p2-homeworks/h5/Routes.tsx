@@ -12,7 +12,6 @@ export const PATH = {
     JUNIOR_PLUS: '/junior-plus'
     // add paths
 }
-
 function Routes() {
     return (
         <div>
