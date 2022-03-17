@@ -1,16 +1,13 @@
-import React from 'react';
-import HW12 from "../../h12/HW12";
-import HW10 from "../../h10/HW10";
-import HW11 from "../../h11/HW11";
-import Error404 from "../../h5/pages/Error404";
+import React from 'react'
 
-export const JuniorPlus = () => {
+export function JuniorPlus() {
     return (
         <div>
-            <Error404/>
-           {/* <HW10/>
-            <HW11/>
-            <HW12/>*/}
+            This level is not available to you!
         </div>
-    );
-};
+    )
+}
+
+
+// сделайте по аналогии пустые страницы джун и джун+
+// туда будут добавляться следующие дз

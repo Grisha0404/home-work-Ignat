@@ -1,9 +1,17 @@
-.default {
-margin-top: 10px;
-}
-.default:hover{
-    color: blue;
-}
+
 .red {
+    border-radius: 4px;
+    border: none;
     background: red;
+}
+.default {
+    margin: 10px;
+    transition-duration: 0.4s;
+}
+
+.default:hover {
+    border-radius: 2px;
+    border: 1px solid cornflowerblue;
+    background-color: cornflowerblue; /* Green */
+    color: white;
 }

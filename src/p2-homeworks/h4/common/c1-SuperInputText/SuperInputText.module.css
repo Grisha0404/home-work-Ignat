@@ -1,11 +1,11 @@
 .superInput {
-
 }
 
 .errorInput {
-    margin-top: 20px;
-    border: 2px solid lightslategray;
-    background: lightgoldenrodyellow;
+    margin-left: 20px;
+    border: 2px solid cadetblue;
+    border-radius: 4px;
+    outline: none;
 }
 
 .error {

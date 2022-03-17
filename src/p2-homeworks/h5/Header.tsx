@@ -2,7 +2,7 @@ import React from 'react'
 import {AddLink} from "./pages/AddLink";
 import s from '../../App.module.css'
 
-function Header() {
+export function Header() {
     return (
         <div className={s.poster}>
             <div className={s.block}>
@@ -11,5 +11,3 @@ function Header() {
         </div>
     )
 }
-
-export default Header

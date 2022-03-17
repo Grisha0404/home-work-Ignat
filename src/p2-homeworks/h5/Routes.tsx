@@ -2,7 +2,7 @@ import React from 'react'
 import PreJunior from "./pages/PreJunior";
 import Error404 from "./pages/Error404";
 import {Route, Redirect, Switch} from "react-router-dom";
-import {Junior} from "./pages/Junior";
+import Junior from "./pages/Junior";
 import {JuniorPlus} from "./pages/JuniorPlus";
 
 
