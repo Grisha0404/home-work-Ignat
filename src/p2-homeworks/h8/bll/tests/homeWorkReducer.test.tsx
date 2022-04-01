@@ -23,7 +23,7 @@ test('sort name up', () => {
 
 })
 test('sort name down', () => {
-    const newState = homeWorkReducer(initialState, {type: 'sort', payload: 'down'})
+    const newState = homeWorkReducer(initialState, {type: 'sortDown', payload: 'down'})
 
     expect(newState[0].name).toBe('Кот')
 })
