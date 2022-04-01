@@ -29,7 +29,7 @@ function HW8() {
 
     const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: 'sortUp', payload: 'up'}))
     const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: 'sortDown', payload: 'down'}))
-    const sortAge = () => setPeople(homeWorkReducer(initialPeople, {type: 'check', payload: 'age'}))
+    const sortAge = () => setPeople(homeWorkReducer(initialPeople, {type: 'check', payload: 18}))
 
     return (
         <div>
