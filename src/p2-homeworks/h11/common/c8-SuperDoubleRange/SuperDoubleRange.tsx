@@ -1,4 +1,6 @@
 import React from 'react'
+import Nouislider from "nouislider-react";
+import style from '../c7-SuperRange/SuperRange.module.css'
 
 type SuperDoubleRangePropsType = {
     onChangeRange?: (value: [number, number]) => void
@@ -13,6 +15,10 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
     }
 ) => {
     // сделать самому, можно подключать библиотеки
+
+    const handleOnChange = (value: number | number[]) => {
+        console.log(value)
+    }
 
     return (
         <>
