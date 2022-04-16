@@ -10,6 +10,7 @@ import HW9 from "./p2-homeworks/h9/HW9";
 import HW10 from "./p2-homeworks/h10/HW10";
 import {Provider} from "react-redux";
 import {store} from "./p2-homeworks/h10/bll/store";
+import HW11 from "./p2-homeworks/h11/HW11";
 
 function App() {
     return (
@@ -19,12 +20,13 @@ function App() {
             <HW2/>*/}
             {/*<HW3/>*/}
             {/*<HW4/>*/}
-            <HW5/>
+            {/*<HW5/>*/}
             {/*<HW6/>*/}
             {/*<HW9/>*/}
             {/*<Provider store={store}>
             <HW10/>
             </Provider>*/}
+            <HW11/>
         </div>
     )
 }
