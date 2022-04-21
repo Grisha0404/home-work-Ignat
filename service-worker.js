@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/home-work-Ignat/precache-manifest.79fc226ca6bb615cb2f6c1d0f9daf267.js"
+  "/home-work-Ignat/precache-manifest.6c41ac9ced0ce66ee8ca20e67919f1f0.js"
 );
 
 self.addEventListener('message', (event) => {
