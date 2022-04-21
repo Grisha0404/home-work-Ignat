@@ -11,6 +11,7 @@ import HW10 from "./p2-homeworks/h10/HW10";
 import {Provider} from "react-redux";
 import {store} from "./p2-homeworks/h10/bll/store";
 import HW11 from "./p2-homeworks/h11/HW11";
+import HW12 from "./p2-homeworks/h12/HW12";
 
 function App() {
     return (
@@ -26,7 +27,10 @@ function App() {
             {/*<Provider store={store}>
             <HW10/>
             </Provider>*/}
-            <HW11/>
+            {/*<HW11/>*/}
+            <Provider store={store}>
+                <HW12/>
+            </Provider>
         </div>
     )
 }
