@@ -13,7 +13,7 @@ export const HW13 = () => {
                 })
                 .catch((error) => {
                     console.log({...error});
-                    setError(error.response ? error.response.data.errorText : error.message)
+                    setError(error.response.data.errorText)
                     console.log(error.response ? error.response.data.errorText : error.message);
                 })
         },
