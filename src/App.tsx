@@ -21,16 +21,16 @@ function App() {
             <HW2/>*/}
             {/*<HW3/>*/}
             {/*<HW4/>*/}
-            {/*<HW5/>*/}
+            <HW5/>
             {/*<HW6/>*/}
             {/*<HW9/>*/}
             {/*<Provider store={store}>
             <HW10/>
             </Provider>*/}
             {/*<HW11/>*/}
-            <Provider store={store}>
-                <HW12/>
-            </Provider>
+            {/*<Provider store={store}>*/}
+            {/*    <HW12/>*/}
+            {/*</Provider>*/}
         </div>
     )
 }
