@@ -1,8 +1,9 @@
 import React from 'react'
+import {HW13} from "../../h13/HW13";
 
 export function JuniorPlus() {
     return <div>
-        This level is not available to you!
+        <HW13/>
     </div>
 
 }
